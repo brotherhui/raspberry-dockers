@@ -9,7 +9,7 @@ docker build -t mysql .
 docker ps
 
 3. start nginx at behind.
-docker run -d -p 13306:3306 -v /var/lib/mysql:/var/lib/mysql mysql
+docker run --restart=always -d -p 13306:3306 -v /var/lib/mysql:/var/lib/mysql mysql
 
 4. see logs
 docker logs {continerid}
