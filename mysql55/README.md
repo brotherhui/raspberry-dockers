@@ -1,4 +1,4 @@
-This is just the php7 image, no other technical
+This is just the mysql55 image, no other technical
 
 Commands:
 1. build image
