@@ -11,7 +11,7 @@ docker ps
 
 3. start nginx at behind.
 <pre><code>
-docker run -d -p 180:80 -v /var/www/html:/var/www/html -v /etc/nginx/sites-available:/etc/nginx/sites-available -v /etc/nginx/conf.d:/etc/nginx/conf.d nginx
+docker run --restart=always -d -p 180:80 -v /var/www/html:/var/www/html -v /etc/nginx/sites-available:/etc/nginx/sites-available -v /etc/nginx/conf.d:/etc/nginx/conf.d nginx
 </code></pre>
 
 
