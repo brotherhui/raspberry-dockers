@@ -1,5 +1,5 @@
 # raspberry-dockers
-nginx, jenkins, mysql, phabricator
+raspberry 3, rpi 3, working nginx,  mysql, jenkins, gitlab
 
 
 ALL the proposes are to use the local volume as the config and data path and use docker to start the server.
