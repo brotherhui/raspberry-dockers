@@ -12,4 +12,4 @@ all config folders and data folders for different services are the same path in 
 - nginx service | http://localhost:180 
 - mysql | 13306
 - jenkins | http://localhost:18080
-- gitlab | http://localhost:181
+
